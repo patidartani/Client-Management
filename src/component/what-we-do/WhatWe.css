@@ -1,0 +1,45 @@
+.WhatWe-main{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 1vmax;
+}
+.WhatWe-main .What-we-content{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+}
+.WhatWe-main .What-we-content .what-we-topp{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: rgba(0, 0, 0, 0.8) ;
+          color: #fff ;
+          padding: 5vmax;
+}
+.WhatWe-main .What-we-content .what-we-topp h5{
+        font-size: 2.6vmax;
+        font-weight: 700;
+        margin-top: 1vmax;
+}
+.WhatWe-main .What-we-content .what-we-btmm{
+          width: 80%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          margin-top: 3vmax;
+}
+.WhatWe-main .What-we-content .what-we-btmm .wwd-image{
+          width: 100%;
+          background-color: rgb(71, 71, 71);
+          height: 400px;
+}
+.WhatWe-main .What-we-content .what-we-btmm .wwd-image img {
+        width: 100%;
+        height: 100%;
+}

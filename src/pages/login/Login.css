@@ -1,0 +1,148 @@
+.Login-main {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding-top: 5vmax;
+          margin-bottom: 5vmax;
+          font-family: Arial, Helvetica, sans-serif;
+}
+.Login-main .login-content {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+}
+.Login-main .login-content .login-form {
+          width: 30%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          box-shadow: 2px 2px 5px 2px rgb(204, 204, 204);
+          padding: 1.5vmax;
+          border-radius: 10px;
+          gap: 1vmax;
+}
+.Login-main .login-content .login-form h5 {
+          font-weight: 600;
+          font-size: 1.6vmax;
+          font-family: Arial, Helvetica, sans-serif;
+}
+.Login-main .login-content .login-form form {
+          width: 100%;
+}
+.Login-main .login-content .login-form .ipt {
+          width: 100%;
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          flex-direction: column;
+          gap: 0.2vmax;
+          margin-bottom: 1.3vmax;
+}
+.Login-main .login-content .login-form .ipt label {
+          font-weight: 600;
+}
+.Login-main .login-content .login-form .ipt input {
+          width: 100%;
+          padding: 0.5vmax 1vmax;
+          border-radius: 5px;
+          outline: none;
+          border: 1px solid #c1c1c1;
+}
+.Login-main .login-content .login-form .forget {
+          width: 100%;
+          display: flex;
+          align-items: flex-end;
+          justify-content: flex-end;
+          margin-bottom: 1.3vmax;
+}
+.Login-main .login-content .login-form .login-btn {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 1.3vmax;
+}
+.Login-main .login-content .login-form .login-btn button {
+          width: 100%;
+          margin-bottom: 1.3vmax;
+          padding: 0.5vmax 1vmax;
+          border-radius: 5px;
+          border: 1px solid #c1c1c1;
+          font-weight: 600;
+          color: #fff;
+          background-color: #ff7302;
+}
+.Login-main .login-content .login-form .login-btn button:hover {
+          background-color: #ff7402cf;
+}
+.Login-main .login-content .login-form .last {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+}
+@media (max-width:600px) {
+          .Login-main {
+                    width: 100%;
+          }
+          .Login-main .login-content .login-form {
+                    width: 95%;
+          }
+          .Login-main .login-content .login-form h5 {
+                    font-size: 3vmax;
+          }
+          .Login-main .login-content .login-form .ipt {
+                    gap: 0.6vmax;
+                    margin-bottom: 2.5vmax;
+          }
+          .Login-main .login-content .login-form .ipt label {
+                    font-size: 2.5vmax;
+          }
+          .Login-main .login-content .login-form .ipt input {
+                    padding: 1.6vmax 1.4vmax;
+          }
+          .Login-main .login-content .login-form .login-btn button {
+                    padding: 1.6vmax 1.4vmax;
+
+          }
+}
+
+@media (min-width:600px) and (max-width:1150px) {
+          .Login-main {
+                    width: 100%;
+          }
+          .Login-main .login-content .login-form {
+                    width: 95%;
+          }
+          .Login-main .login-content .login-form h5 {
+                    font-size: 3vmax;
+          }
+          .Login-main .login-content .login-form .ipt {
+                    gap: 0.6vmax;
+                    margin-bottom: 2.5vmax;
+          }
+          .Login-main .login-content .login-form .ipt label {
+                    font-size: 2.5vmax;
+          }
+          .Login-main .login-content .login-form .ipt input {
+                    padding: 2.5vmax 2vmax;
+          }
+          .Login-main .login-content .login-form .ipt input::placeholder{
+              font-size: 2vmax;     
+          }
+          .Login-main .login-content .login-form .login-btn button {
+                    padding: 1.6vmax 1.4vmax;
+                   font-size: 2.3vmax;
+          }
+          .Login-main .login-content .login-form .forget a{
+                   font-size: 2.3vmax;
+          }
+          
+.Login-main .login-content .login-form .last span{
+          font-size: 2.3vmax;      
+}
+}

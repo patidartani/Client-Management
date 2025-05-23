@@ -1,0 +1,119 @@
+.Faq-main{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 1vmax;
+          margin-bottom: 3vmax;
+}
+.Faq-main .faq-content{
+          width: 80%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+         margin-bottom: 4vmax;
+
+}
+.Faq-main .faq-content .faq-top{
+          width: 100%;
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          flex-direction: column;
+         margin-bottom: 2vmax;
+          margin-top: 2vmax;
+}
+
+.Faq-main .faq-content .faq-top h5{
+        color: #ff7f17;
+        font-weight: 600;
+}
+
+.Faq-main .faq-content .faq-top h3{
+      font-size: 2vmax;
+      font-weight: 700;
+  }
+  .Faq-main .faq-content .faq-btm{
+          margin-top: 2vmax;
+          width: 100%;
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          flex-direction: column;
+          gap: 1.5vmax;
+  }
+  .Faq-main .faq-content .faq-btm .faq-line{
+          width: 100%;
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          flex-direction: column;
+          box-shadow: 2px 2px 5px 2px rgb(218, 218, 218);
+          padding: 0.8vmax 2vmax;
+          border-radius: 10px;
+          gap: 0.3vmax;
+          cursor: pointer;
+  }
+  .Faq-main .faq-content .faq-btm .faq-line .f-line-top{
+         width: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         flex-direction: row;
+  }
+  .Faq-main .faq-content .faq-btm .faq-line .f-line-top h6{
+         font-size: 1.2vmax;
+         letter-spacing: 0.3px;
+         font-weight: 700;
+         font-family: Arial, Helvetica, sans-serif;
+   }
+   .Faq-main .faq-content .faq-btm .faq-line .f-line-btm p{
+         font-size: 1vmax;
+         letter-spacing: 0.5px;
+         color: #4e4e4e;
+    }
+    .Faq-main .faq-content .faq-btm .faq-line .f-line-btm {
+          max-height: 0;
+          overflow: hidden;
+          transition: max-height 0.3s ease-in-out;
+      }
+      
+   .Faq-main .faq-content .faq-btm .faq-line .f-line-top i{
+          font-size: 2vmax;
+          cursor: pointer;
+    }
+.Faq-main .faq-content .faq-btm .faq-line.active .f-line-top h6,
+.Faq-main .faq-content .faq-btm .faq-line.active .f-line-top i {
+          color: #ff7f17;
+
+}
+@media (max-width:600px) {
+        .Faq-main{
+                width: 100%;
+      }
+      .Faq-main .faq-content{
+                width: 90%;
+      }
+      .Faq-main .faq-content .faq-top h5{
+            font-size: 3vmax;
+      }
+      
+      .Faq-main .faq-content .faq-top h3{
+            font-size: 3vmax;
+        }
+        .Faq-main .faq-content .faq-btm .faq-line{
+                padding: 2vmax 2.5vmax;
+                height: auto;
+        }
+        .Faq-main .faq-content .faq-btm .faq-line .f-line-top h6{
+               font-size: 2vmax;
+         }
+         .Faq-main .faq-content .faq-btm .faq-line .f-line-btm p{
+               font-size: 2vmax;
+          }
+         .Faq-main .faq-content .faq-btm .faq-line .f-line-top i{
+                font-size: 3.5vmax;
+          }
+         
+}

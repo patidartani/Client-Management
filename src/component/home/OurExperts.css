@@ -1,0 +1,97 @@
+.OurExperts-main{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+}
+.OurExperts-main .OurExperts-content{
+          width: 80%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          padding-top: 4vmax;
+}
+.OurExperts-main .OurExperts-content .OE-top{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: row;
+}
+.OurExperts-main .OurExperts-content .OE-top h5{
+         font-size: 2.2vmax;
+         font-weight: 700;
+         text-transform: uppercase;
+}
+ .OurExperts-main .OurExperts-content .OE-top .oe-arrow i{
+          border: 1px solid #5c5c5c;font-size: 2vmax;
+          margin: 0.3vmax;
+          cursor: pointer;
+ }.OE-slider-container {
+          width: 100%;
+          overflow: hidden;
+          position: relative;
+        }
+        .OE-btm {
+          display: flex;
+          gap: 1vmax;
+          transition: transform 0.5s ease-in-out;
+          width: max-content;
+          margin-top: 2vmax;
+          margin-bottom: 3vmax;
+          user-select: none;
+        }
+        .Expert-box {
+          width: 300px;
+          flex-shrink: 0;
+          background: #fff;
+          border-radius: 8px;
+          display: flex;
+          gap: 1vmax;
+          align-items: flex-start;
+          justify-content: space-between;
+          flex-direction: column;
+        }
+        
+        .e-img {
+          width: 100%;
+          height: 300px;
+          background: #00000097;
+          border-radius: 8px;
+        }
+        .e-img img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
+          border-radius: 8px;
+
+        }
+
+@media (max-width:600px) {    
+.OurExperts-main{
+      width: 100%;
+}
+.OurExperts-main .OurExperts-content{
+      width: 95%;
+}
+
+.OurExperts-main .OurExperts-content .OE-top h5{
+     font-size: 3vmax;
+}
+.OurExperts-main .OurExperts-content .OE-top .oe-arrow i{
+     font-size: 3vmax;
+}
+
+    .OE-btm {
+      display: flex;
+      gap: 2vmax;
+    }
+    .Expert-box {
+      width: 100vw !important; /* Pure screen width le */
+      flex: 0 0 auto;
+    }
+
+  }
+        

@@ -1,0 +1,96 @@
+
+.about-title{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 3vmax;
+	padding-bottom: 3vmax;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.about-title h2{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: 600;
+}
+
+/* --------------------services-section--------------------------------- */
+
+.services-section{
+	position:relative;
+	padding-bottom:10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.services-section.style-two{
+	padding-top:60px;
+	background-color:#fafafa;
+}
+.services-section.style-two h2{
+	position:relative;
+	color:#1c1c1c;
+	font-size:28px;
+	text-align:center;
+	font-weight: 700;
+	margin-bottom:52px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.services-block{
+	position:relative;
+	margin-bottom:50px;
+}
+
+.services-block .inner-box{
+	position:relative;
+	overflow: hidden;
+}
+
+.services-block .inner-box .image-box{
+	position:relative;
+	overflow: hidden;
+}
+.services-block .inner-box .image-box img {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+	display: block;
+	transition: transform 0.5s ease; 
+        }
+        
+        .services-block .inner-box .image-box img:hover {
+	transform: scale(1.1);
+        }
+
+.services-block .inner-box .image-box .overlay-box{
+	position:absolute;
+	width:100%;
+	left:0px;
+	text-align: center;
+	bottom:0px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	padding: 10px 0px 10px 20px;
+	background-color:rgba(31,84,163,0.90);
+}
+
+.services-block .inner-box .image-box .overlay-box h3{
+	position:relative;
+	line-height:1.1em;
+}
+
+.services-block .inner-box .image-box .overlay-box h3 a{
+	position:relative;
+	color:#ffffff;
+	font-size:20px;
+	font-weight:700;
+	text-decoration: none;
+}
+
+
+
+
+
+	

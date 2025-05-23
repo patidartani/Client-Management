@@ -1,0 +1,113 @@
+.AboutChoose-main {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #fff;
+          font-family: Raleway, sans-serif;
+}
+.AboutChoose-main .AboutChoose-content {
+          width: 100%;
+          display: flex;
+          align-items: stretch;
+          justify-content: center;
+          flex-direction: row;
+          background: #f9f9f9;
+          position: relative;
+}
+.AboutChoose-main .AboutChoose-content .AboutChoose-left {
+          width: 45%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: rgba(0, 0, 0, 0.9);
+}
+.AboutChoose-main .AboutChoose-content .AboutChoose-left .inner-box {
+          width: 80%;
+          gap: 0.7vmax;
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-start;
+          flex-direction: column;
+}
+.AboutChoose-main .AboutChoose-content .AboutChoose-left .inner-box h3 {
+          font-weight: 700;
+          font-size: 2.3vmax;
+          text-transform: uppercase;
+          color: rgb(197, 197, 197);
+}
+
+.AboutChoose-main .AboutChoose-content .AboutChoose-left .inner-box p {
+          font-weight: 300;
+          font-size: 17px;
+          color: rgb(197, 197, 197);
+}
+
+.AboutChoose-main .AboutChoose-content .AboutChoose-right {
+          width: 55%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+          background: #f9f9f9;
+          gap: 2vmax;
+          color: #000;
+          padding: 1vmax;
+
+}
+
+.AboutChoose-main .AboutChoose-content .AboutChoose-right .AboutChoose-box {
+          width: 37%;
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          flex-direction: column;
+}
+
+.AboutChoose-main .AboutChoose-content .AboutChoose-right .AboutChoose-box h5 {
+          font-weight: 600;
+}
+
+.AboutChoose-main .AboutChoose-content .AboutChoose-right .AboutChoose-box p {
+          color: #777777;
+}
+
+.AboutChoose-main .AboutChoose-content .AboutChoose-right .AboutChoose-box .icon {
+          font-size: 50px;
+          color: #144e8a;
+}
+
+
+@media (max-width:600px) {
+          .AboutChoose-main {
+                    width: 100%;
+          }
+
+          .AboutChoose-main .AboutChoose-content {
+                    width: 100%;
+                    flex-direction: column;
+          }
+
+          .AboutChoose-main .AboutChoose-content .AboutChoose-left {
+                    width: 100%;
+                    padding: 7vmax 1.5vmax;
+          }
+
+          .AboutChoose-main .AboutChoose-content .AboutChoose-left .inner-box {
+                    width: 95%;
+          }
+
+          .AboutChoose-main .AboutChoose-content .AboutChoose-left .inner-box h3 {
+                    font-size: 3vmax
+          }
+
+          .AboutChoose-main .AboutChoose-content .AboutChoose-right {
+                    width: 90%;
+
+          }
+
+          .AboutChoose-main .AboutChoose-content .AboutChoose-right .AboutChoose-box {
+                    width: 100%;
+          }
+
+}
