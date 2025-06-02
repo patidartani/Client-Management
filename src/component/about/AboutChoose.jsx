@@ -15,7 +15,7 @@ const AboutChoose = () => {
                 <p>
                   Choosing the right Chartered Accountant is crucial to your financial success and regulatory compliance. At Sidwaniya & Co, we go beyond traditional accounting services — we become your strategic financial partner. Here’s why clients across sectors trust us:
                 </p>
-                <a href="/ca-project/about-us" className="theme-btn btn-style-one">
+                <a href="/about-us" className="theme-btn btn-style-one">
                   LEARN MORE
                 </a>
               </div>

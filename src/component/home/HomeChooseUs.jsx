@@ -14,7 +14,7 @@ const HomeChooseUs = () => {
                 <p>
                   We offer comprehensive services for business establishment and registration. Our expertise spans across selecting the most suitable business structure, preparing and filing the necessary documentation, and ensuring compliance with all legal and regulatory requirements. We facilitate the seamless incorporation of your business, including company registration, obtaining relevant licenses, and handling tax registrations, providing you with a solid foundation for long-term success.
                 </p>
-                <a href="/ca-project/about-us" className="theme-btn btn-style-one">
+                <a href="/about-us" className="theme-btn btn-style-one">
                   LEARN MORE
                 </a>
               </div>

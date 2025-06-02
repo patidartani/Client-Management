@@ -63,13 +63,13 @@ const Footer = () => {
           <div className="footer-one" id="res" style={{ marginTop: "2vmax" }}>
             <h5>Latest News</h5>
             <div className="f-btm">
-              <a href="/ca-project/news">
+              <a href="/news">
                 <i className="ri-arrow-right-s-fill"></i>News
               </a>
-              <a href="/ca-project/ca-project/faq">
+              <a href="/faq">
                 <i className="ri-arrow-right-s-fill"></i>FAQ
               </a>
-              <a href="/ca-project/pricing">
+              <a href="/pricing">
                 <i className="ri-arrow-right-s-fill"></i>Pricing
               </a>
             </div>
@@ -82,16 +82,16 @@ const Footer = () => {
               <a href="/">
                 <i className="ri-arrow-right-s-fill"></i> Home
               </a>
-              <a href="/ca-project/about-us">
+              <a href="/about-us">
                 <i className="ri-arrow-right-s-fill"></i> About Us
               </a>
-              <a href="/ca-project/services">
+              <a href="/services">
                 <i className="ri-arrow-right-s-fill"></i>Services
               </a>
-              <a href="/ca-project/team">
+              <a href="/team">
                 <i className="ri-arrow-right-s-fill"></i> Our Team
               </a>
-              <a href="/ca-project/what-we-do">
+              <a href="/what-we-do">
                 <i className="ri-arrow-right-s-fill"></i> What We Do
               </a>
             </div>
@@ -100,10 +100,10 @@ const Footer = () => {
           <div className="footer-one" id="res" style={{ marginTop: "2vmax" }}>
             <h5>Latest News</h5>
             <div className="f-btm">
-              <a href="/ca-project/blog">
+              <a href="/blog">
                 <i className="ri-arrow-right-s-fill"></i>Blog
               </a>
-              <a href="/ca-project/faq">
+              <a href="/faq">
                 <i className="ri-arrow-right-s-fill"></i>FAQ
               </a>
               <div className="news-letter mt-3">

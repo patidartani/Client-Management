@@ -29,7 +29,7 @@ const Signup = () => {
               </div>
               <div className="last">
                 <span>
-                 Already have an account? <a href="/ca-project/login">Login</a>
+                 Already have an account? <a href="/login">Login</a>
                 </span>
               </div>
             </form>

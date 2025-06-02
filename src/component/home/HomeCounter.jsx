@@ -92,7 +92,7 @@ const HomeCounter = () => {
                   </div>
                 </div>
 
-                <a href="/ca-project/contact" className="theme-btns" style={{textDecoration:"none"}}>
+                <a href="/contact" className="theme-btns" style={{textDecoration:"none"}}>
                   Get a Quote
                 </a>
               </div>

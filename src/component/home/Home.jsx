@@ -55,13 +55,13 @@ const Home = () => {
               </div>
               <div className="slider-buttons">
                 <a
-                  href="/ca-project/about-us"
+                  href="/about-us"
                   className="theme-btn btn-style-one"
                 >
                   Learn More
                 </a>
                 <a
-                  href="/ca-project/contact"
+                  href="/contact"
                   className="theme-btn btn-style-two"
                 >
                   Contact Us

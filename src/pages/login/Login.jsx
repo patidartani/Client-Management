@@ -32,7 +32,7 @@ const Login = () => {
               </div>
               <div className="last">
                 <span>
-                  Don't have any account? <a href="/ca-project/signup">Signup</a>
+                  Don't have any account? <a href="/signup">Signup</a>
                 </span>
               </div>
             </form>
