@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import mainLogo from "../../assets/images/logomain.jpg";
+import mainLogo from "../../assets/images/logoMain.jpg";
 import { RiSendPlaneFill } from "react-icons/ri";
 
 const Footer = () => {
